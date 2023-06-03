@@ -4,12 +4,12 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About Us', href: '#' },
-  { name: 'Top College', href: '#' },
-  { name: 'Top University', href: '#' },
-  { name: 'Admision', href: '#' },
-  { name: 'Fee', href: '#' },
+  { name: 'Home', link: "/" },
+  { name: 'About Us', link: "/aboutus" },
+  { name: 'Top College', link: "/topcollege" },
+  { name: 'Top University', link: "/topuniversities" },
+  { name: 'Admission', link: "/admission" },
+  { name: 'Fee', link: "/fee" },
   // { name: '', href: '#' },
 ]
 
