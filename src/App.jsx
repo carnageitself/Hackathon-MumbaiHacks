@@ -6,7 +6,7 @@ import AboutUs from "./pages/AboutUs";
 import TopColleges from "./pages/TopColleges";
 import TopUniversity from "./pages/TopUniversity";
 import Admission from "./pages/Admission";
-import Fee from "./pages/Fee";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -48,8 +48,8 @@ function App() {
           path: "/admission",
           element: <Admission />,
         },{
-          path: "/fee",
-          element: <Fee />,
+          path: "/contact",
+          element: <Contact />,
         },
       ],
     },

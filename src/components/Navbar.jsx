@@ -6,11 +6,11 @@ import logo from "../assets/logo.png"
 
 const navigation = [
   { name: 'Home', link: "/" },
-  { name: 'About Us', link: "/aboutus" },
   { name: 'Top College', link: "/topcolleges" },
   { name: 'Top University', link: "/topuniversities" },
   { name: 'Admission', link: "/admission" },
-  { name: 'Fee', link: "/fee" },
+  { name: 'About', link: "/aboutus" },
+  { name: 'Contact', link: "/contact" },
   // { name: '', href: '#' },
 ]
 
