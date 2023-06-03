@@ -18,11 +18,11 @@ const Cards =() =>{
       };
   return (
     <>
-    <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl py-4">Select Your Steam</h1>
+    <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl py-4 mx-10">Select Your Steam</h1>
       <div className="flex flex-wrap gap-4">
         
         <div className="px-1">
-          <Card className="w-72 ">
+          <Card className="w-72  border-gray-200 border">
             <CardHeader floated={false} className="mx-auto w-20 h-20">
               <img
                 src="https://www.vhv.rs/dpng/d/164-1648831_gear-clipart-engineering-symbol-mechanical-engineering-logo-hd.png"
@@ -38,7 +38,7 @@ const Cards =() =>{
           </Card>
         </div>
         <div>
-          <Card className="w-72">
+          <Card className="w-72  border-gray-200 border">
             <CardHeader floated={false} className="mx-auto w-20 h-20">
               <img
                 src="https://png.pngtree.com/png-vector/20190330/ourlarge/pngtree-vector-management-icon-png-image_894670.jpg"
@@ -54,7 +54,7 @@ const Cards =() =>{
           </Card>
         </div>
         <div>
-          <Card className="w-72">
+          <Card className="w-72 border-gray-200 border">
             <CardHeader floated={false} className="mx-auto w-20 h-20">
               <img
                 src="https://icon2.cleanpng.com/20180425/wyq/kisspng-subject-tutor-english-learning-school-5ae072d48c4b04.7748210815246589005747.jpg"
@@ -70,7 +70,7 @@ const Cards =() =>{
           </Card>
         </div>
         <div>
-          <Card className="w-72">
+          <Card className="w-72 border-gray-200 border">
             <CardHeader floated={false} className="mx-auto w-20 h-20">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/2784/2784386.png"
@@ -86,7 +86,7 @@ const Cards =() =>{
           </Card>
         </div>
         <div>
-          <Card className="w-72">
+          <Card className="w-72 border-gray-200 border">
             <CardHeader floated={false} className="mx-auto w-20 h-20">
               <img
                 src="https://e7.pngegg.com/pngimages/617/766/png-clipart-e-commerce-logo-web-development-e-commerce-logo-electronic-business-online-shopping-ecommerce-blue-cdr.png"

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const navigation = [
   { name: 'Home', link: "/" },
   { name: 'About Us', link: "/aboutus" },
-  { name: 'Top College', link: "/topcollege" },
+  { name: 'Top College', link: "/topcolleges" },
   { name: 'Top University', link: "/topuniversities" },
   { name: 'Admission', link: "/admission" },
   { name: 'Fee', link: "/fee" },
@@ -44,15 +44,17 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-gray-900">
+              <Link to={item.link}>
+              <div key={item.name} className="text-lg font-semibold leading-6 text-gray-900 uppercase">
                 {item.name}
-              </a>
+              </div>
+              </Link>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end  ">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-              Read More <span aria-hidden="true">&rarr;</span>
-            </a>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <button className="text-sm font-semibold leading-6 text-white border p-2 bg-indigo-500 rounded-xl flex">
+               <span className='mx-2'>Login</span> <span aria-hidden="true">&rarr;</span>
+            </button>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
