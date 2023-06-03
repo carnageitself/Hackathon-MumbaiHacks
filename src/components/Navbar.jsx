@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import logo from "../assets/logo.png"
 
 const navigation = [
   { name: 'Home', link: "/" },
@@ -25,8 +26,8 @@ const Navbar = () => {
               <Link to="/">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-10 w-auto"
-                src="https://png.pngtree.com/png-clipart/20220620/original/pngtree-emoji-3d-rendering-smiley-face-png-image_8130171.png"
+                className="h-14 w-auto"
+                src={logo}
                 alt=""
               />
               </Link>
