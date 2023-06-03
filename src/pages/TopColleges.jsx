@@ -1,8 +1,11 @@
 import React from 'react'
+import DataTable from '../components/CollegeDatatable'
 
 const TopColleges = () => {
   return (
-    <div>TopColleges</div>
+    <div className='mt-12 h-full mx-10'>
+      <DataTable/>
+    </div>
   )
 }
 
