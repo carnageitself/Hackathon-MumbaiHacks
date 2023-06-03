@@ -53,16 +53,13 @@ const UniversityDataTable = () => {
 
   return (
     <div className="datatable h-[80%] p-2 mx-10">
-    <div className="datatableTitle w-[100%] mb-10 flex items-center justify-between mt-8 border-green-700">
-      Add New User
-      <Link to="/users/new" className="link text-green-400 border rounded p-1 cursor-pointer">
-        Add New
-      </Link>
+    <div className="datatableTitle w-[100%] mb-10 flex items-center justify-center mt-8 text-2xl font-semibold">
+     Top Universites in Mumbai
     </div>
     <DataGrid
       className="datagrid"
       rows={userRows}
-      columns={userColumns.concat(actionColumn)}
+      columns={userColumns}
       pageSize={9}
       rowsPerPageOptions={[9]}
       checkboxSelection

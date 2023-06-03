@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full"></div>
                   <input
                     type="text"
-                    name="name"
+                    name="email"
                     value={form.email}
                     onChange={handleChange}
                     placeholder="What's your Web Address?"
@@ -100,11 +100,11 @@ const Contact = () => {
                   <textarea
                     rows={3}
                     type="text"
-                    name="name"
+                    name="message"
                     value={form.message}
                     onChange={handleChange}
                     placeholder="Hello there, how can I help you?"
-                    className="bg-white py-4 px-6 placeholder:text-gray-500 text-white rounded-lg outline-none  font-medium border-none relative w-full resize-none"
+                    className="bg-white py-4 px-6 placeholder:text-gray-500 text-black rounded-lg outline-none  font-medium border-none relative w-full resize-none"
                   />
                 </div>
               </label>
