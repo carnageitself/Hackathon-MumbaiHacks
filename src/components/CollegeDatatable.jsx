@@ -1,7 +1,7 @@
 import React from 'react'
 import { DataGrid } from '@mui/x-data-grid';
 import { Link } from 'react-router-dom';
-import { userColumns, userRows } from '../constants/datasource';
+import { userColumns, userRows } from '../constants/collegedata';
 
 const CollegeDataTable = () => {
 
