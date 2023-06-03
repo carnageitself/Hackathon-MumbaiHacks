@@ -35,7 +35,7 @@ const Footer =() => {
               >
                 {title}
               </Typography>
-              <ul className="space-y-1 flex items-center justify-center">
+              <ul className="space-y-1">
                 {links.map((link, key) => (
                   <Typography key={key} as="li" color="blue-gray" className="font-normal">
                     <a
