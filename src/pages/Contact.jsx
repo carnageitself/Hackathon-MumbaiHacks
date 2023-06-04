@@ -113,7 +113,7 @@ const Contact = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-28"></div>
                 <button
                   type="submit"
-                  className="bg-indigo-500 py-3 px-8 rounded-xl outline-none w-fit  text-gray-300 group-hover:text-white transition duration-200 font-light relative"
+                  className="bg-black py-3 px-8 rounded-xl outline-none w-fit  text-gray-300 group-hover:text-white transition duration-200 font-light relative"
                 >
                   {loading ? "Sending..." : "Send"}
                 </button>

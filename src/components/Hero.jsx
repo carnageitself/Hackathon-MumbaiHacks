@@ -12,7 +12,7 @@ const Hero = () => {
               Announcing Admission process in Mumbai Enigneering Colleges.
             </div>{" "}
             <Link>
-              <div className="font-semibold text-indigo-600">
+              <div className="font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 inline-block text-transparent bg-clip-text">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Register <span aria-hidden="true">&rarr;</span>
               </div>
@@ -35,7 +35,7 @@ const Hero = () => {
                 </div>
               </Tilt>
             </Link>
-            <Link>
+            <Link to="/aboutus">
               <Tilt>
                 <div className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 shadow-lg relative group">
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-28 -z-10"></div>

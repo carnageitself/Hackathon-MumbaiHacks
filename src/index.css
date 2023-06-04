@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cellWithOwnership {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cellWithOwnership.public {
+  background-color: rgba(0, 128, 0, 0.05);
+  color: green;
+}
+
+&.pending {
+  background-color: rgba(225, 217, 0, 0.05);
+  color: goldenrod;
+}
+
+.cellWithOwnership.private {
+  background-color: rgba(225, 0, 0, 0.05);
+  color: red;
 }
