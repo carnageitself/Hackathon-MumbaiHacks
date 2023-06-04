@@ -25,15 +25,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 1
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot>
+          <TimelineDot color="primary" variant="outlined">
             <FormatIndentIncreaseOutlinedIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
            
           </Typography>
@@ -47,15 +50,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 2
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot color="primary">
-            <FormatIndentDecreaseOutlinedIcon />
+          <TimelineDot color="primary" variant="outlined">
+            <FormatIndentIncreaseOutlinedIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
             
           </Typography>
@@ -91,15 +97,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 4
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
-            <FormatIndentDecreaseOutlinedIcon />
-          </TimelineDot>
           <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
+            <FormatIndentIncreaseOutlinedIcon />
+          </TimelineDot>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
            
           </Typography>
@@ -113,15 +122,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 5
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
+          <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
             <FormatIndentIncreaseOutlinedIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
             
           </Typography>
@@ -136,15 +148,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 6
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
-            <FormatIndentDecreaseOutlinedIcon />
-          </TimelineDot>
           <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
+            <FormatIndentIncreaseOutlinedIcon />
+          </TimelineDot>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
            
           </Typography>
@@ -158,15 +173,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 7
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
+          <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
             <FormatIndentIncreaseOutlinedIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
             
           </Typography>
@@ -180,15 +198,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 8
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
-            <FormatIndentDecreaseOutlinedIcon />
-          </TimelineDot>
           <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
+            <FormatIndentIncreaseOutlinedIcon />
+          </TimelineDot>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
             
           </Typography>
@@ -202,15 +223,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 9
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
+          <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
             <FormatIndentIncreaseOutlinedIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
            
           </Typography>
@@ -224,15 +248,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 10
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
-            <FormatIndentDecreaseOutlinedIcon />
-          </TimelineDot>
           <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
+            <FormatIndentIncreaseOutlinedIcon />
+          </TimelineDot>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
             
           </Typography>
@@ -246,15 +273,18 @@ const Admission = () => {
           color="text.secondary"
         >
           Step 11
-        </TimelineOppositeContent>
+          </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
+          <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
             <FormatIndentIncreaseOutlinedIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
           <Typography variant="h6" component="span">
             
           </Typography>
