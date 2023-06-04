@@ -5,11 +5,11 @@ import { Tilt } from "react-tilt";
 const Hero = () => {
   return (
     <div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-2 text-lg leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-600 h-10 w-full flex gap-3 shadow-lg hover:scale-105 hover:shadow-xl">
-            <div className="ml-3">
-              Announcing Admission process in Mumbai Enigneering Colleges.
+            <div className="ml-3 flex flex-1">
+            Join the Elite Ranks at Mumbai Eng College: Ignite Your Dreams in the City of Opportunities!
             </div>{" "}
             <Link>
               <div className="font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 inline-block text-transparent bg-clip-text">
@@ -19,14 +19,13 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="text-center">
-          <h1 className="text-4xl tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-300 to-blue-600 inline-block text-transparent bg-clip-text md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] font-semibold h-20">
-            Not clear where to go ?
+        <div className="text-center flex items-center justify-center flex-col">
+          <h1 className="text-2xl tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-300 to-blue-600 inline-block text-transparent bg-clip-text md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] font-semibold h-56">
+            "Unlock Your Potential, Embrace Your Future: Your Journey Starts
+            Here!"
           </h1>
-          <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block bg-clip-text font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-transparent">
-           Don't worry, we are here to unlock your true potential and providing a clear roadmap to success.{" "}
-          </p>
-          <div className="mt-10 flex items-center justify-center gap-x-10">
+
+          <div className=" flex items-center justify-center gap-x-10">
             <Link>
               <Tilt>
                 <div className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 shadow-lg relative group">

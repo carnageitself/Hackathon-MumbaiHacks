@@ -291,6 +291,33 @@ const Admission = () => {
           <Typography> It is mandatory for any student from non English speaking countries to pass English Proficiency Test and his/her responsibility to be present on the day of the examination.</Typography>
         </TimelineContent>
       </TimelineItem>
+      <TimelineItem>
+      <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          Step 12
+          </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
+            <FormatIndentDecreaseOutlinedIcon />
+          </TimelineDot>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+           
+          </Typography>
+          <Typography variant="h6" component="span">
+            
+          </Typography>
+          <Typography>
+            <a href="">Admission Form</a>
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
     </Timeline>
     
       </div>

@@ -54,7 +54,7 @@ export const userRows = [
     colleges: "ICT Mumbai - Institute of Chemical Technology",
     img: "https://afterbtech.com/wp-content/uploads/2011/02/Institute-of-Chemical-Technology.jpg",
     email: "Director@iict.res.in",
-    ownership: "private",
+    ownership: "public",
     location: "Matunga",
   },
   {
@@ -63,7 +63,7 @@ export const userRows = [
     colleges: "MPSTME Mumbai - Mukesh Patel School of Technology Management and Engineering",
     img: "https://images.search.yahoo.com/search/images;_ylt=Awrjbj3qzXtk4mAakOBXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZANDQ0FEU1lDVF8xBHNlYwNwaXZz?p=Mukesh+Patel+School+of+Technology+Management+%26+Engineering&fr2=piv-web&type=E210US0G0&fr=mcafee",
     email: " enquiry.mpstme@nmims.edu",
-    ownership: "pending",
+    ownership: "private",
     location:"Vileparle" ,
   },
   {
@@ -72,7 +72,7 @@ export const userRows = [
     colleges: "VJTI Mumbai - Veermata Jijabai Technological Institute",
     img: "https://www.eduvidya.com/admin/Upload/Institutes/634928117742035939_veermata.jpg",
     email: "registrar@vjti.org.in",
-    ownership: "active",
+    ownership: "public",
     location: "Matunga",
   },
   {
@@ -81,7 +81,7 @@ export const userRows = [
     colleges: "DJSCE Mumbai - Dwarkadas J Sanghvi College of Engineering",
     img: "https://www.it.iitb.ac.in/anides/img/activities/DJ%20Sanghvi_2011.png",
     email: "admin@djsce.ac.in",
-    ownership: "passive",
+    ownership: "private",
     location: "Vileparle",
   },
   {
@@ -90,7 +90,7 @@ export const userRows = [
     colleges: "KJ Somaiya College of Engineering, Mumbai",
     img: "https://static.ambitionbox.com/alpha/colleges/photos/logos/kj-somaiya-institute-of-engineering-and-information-technology.jpg",
     email: "Csdc@somaiya.edu",
-    ownership: "active",
+    ownership: "private",
     location: "Vidyavihar",
   },
   {
@@ -99,7 +99,7 @@ export const userRows = [
     colleges: "SPIT Mumbai - Sardar Patel Institute of Technology",
     img: "https://www.campusoption.com/images/colleges/logos/24_11_17_104201_Logo.jpg",
     email: "principal{at}spit.ac.in",
-    ownership: "passive",
+    ownership: "private",
     location: "Andheri",
   },
   {
@@ -108,7 +108,7 @@ export const userRows = [
     colleges: "Fr Conceicao Rodrigues College of Engineering, Mumbai",
     img: "https://image3.mouthshut.com/images/imagesp/925718586s.jpg",
     email: "crce@frcrce.ac.in",
-    ownership: "active",
+    ownership: "private",
     location: "Bandra",
   },
   {
@@ -117,7 +117,7 @@ export const userRows = [
     colleges: "KJSIEIT Mumbai - KJ Somaiya Institute of Engineering and Information Technology",
     img: "https://static.ambitionbox.com/alpha/colleges/photos/logos/kj-somaiya-institute-of-engineering-and-information-technology.jpg",
     email: "info.tech@somaiya.edu",
-    ownership: "pending",
+    ownership: "private",
     location: "Sion",
   },
   {
@@ -126,7 +126,7 @@ export const userRows = [
     colleges: "SPCE Mumbai - Sardar Patel College of Engineering",
     img: "https://image3.mouthshut.com/images/imagesp/925002385s.png",
     email: "internship.spce@gmail.com",
-    ownership: "active",
+    ownership: "private",
     location:"Andheri" ,
   },
 ];

@@ -66,7 +66,7 @@ const Contact = () => {
               <label className="flex flex-col">
                 <span className="text-black font-medium mb-4">Your Name</span>
                 <div className="relative group">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full"></div>
+                  <div className="absolute -inset-1 bg-gradient-to-r from-gray-300 to-gray-300 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full border border-gray-800"></div>
                   <input
                     type="text"
                     name="name"
@@ -80,7 +80,7 @@ const Contact = () => {
               <label className="flex flex-col">
                 <span className="text-black font-medium mb-4">Your email</span>
                 <div className="relative group">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full"></div>
+                  <div className="absolute -inset-1 bg-gradient-to-r from-gray-300 to-gray-300 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full border border-gray-800"></div>
                   <input
                     type="text"
                     name="email"
@@ -96,7 +96,7 @@ const Contact = () => {
                   Your Message
                 </span>
                 <div className="relative group">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full"></div>
+                  <div className="absolute -inset-1 bg-gradient-to-r from-gray-300 to-gray-300 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-full border border-gray-800"></div>
                   <textarea
                     rows={3}
                     type="text"
@@ -110,7 +110,7 @@ const Contact = () => {
               </label>
 
               <div className="relative group mt-3">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-28"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-gray-300 to-gray-300 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-28 border border-gray-800"></div>
                 <button
                   type="submit"
                   className="bg-black py-3 px-8 rounded-xl outline-none w-fit  text-gray-300 group-hover:text-white transition duration-200 font-light relative"
