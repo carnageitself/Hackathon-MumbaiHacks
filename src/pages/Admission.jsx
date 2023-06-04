@@ -40,7 +40,7 @@ const Admission = () => {
           <Typography variant="h6" component="span">
            
           </Typography>
-          <Typography> Student registers and logs in the website.</Typography>
+          <div className="h-full flex items-center"><Typography> Student registers and logs in the website.</Typography></div>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -313,9 +313,11 @@ const Admission = () => {
           <Typography variant="h6" component="span">
             
           </Typography>
+          <div className="h-full flex items-center justify-end">
           <Typography>
-            <a href="">Admission Form</a>
+            <a href="https://mumoa.digitaluniversity.ac/" style={{color: "blue"}}>Admission Form</a>
           </Typography>
+          </div>
         </TimelineContent>
       </TimelineItem>
     </Timeline>

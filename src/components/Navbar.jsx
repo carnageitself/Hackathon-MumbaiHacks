@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { Tilt } from "react-tilt";
+import { AuthContext } from "../context/AuthContext";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase";
 
 const navigation = [
   { name: "Home", link: "/" },
@@ -16,6 +19,7 @@ const navigation = [
 ];
 
 const Navbar = () => {
+  const { currentUser } = useContext(AuthContext);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -30,7 +34,7 @@ const Navbar = () => {
               <Link to="/">
               <div className="absolute bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-10 -z-10"></div>
                 <span className="sr-only">Your Company</span>
-                <img className="h-14 w-auto relative group" src={logo} alt="" />
+                <img className="h-20 w-auto relative group" src={logo} alt="" />
               </Link>
             </div>
           </div>
@@ -61,7 +65,7 @@ const Navbar = () => {
               <Tilt>
                 <button className="text-sm font-semibold leading-6 text-white border p-2 bg-black rounded-xl flex relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xl blur-xl opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 w-24 -z-10"></div>
-                  <span className="mx-2">Login</span>{" "}
+                 {currentUser ?< span className="mx-2" onClick={() => signOut(auth)}>Logout</span>: < span className="mx-2">Login</span>}
                   <span aria-hidden="true">&rarr;</span>
                 </button>
               </Tilt>

@@ -45,7 +45,7 @@ export const userColumns = [
       ranking:"5th in India",
       universities: "IIT Bombay - Indian Institute of Technology",
       img: "https://www.theindianwire.com/wp-content/uploads/2019/01/IIT-Bombay.png",
-      ownership: "active",
+      ownership: "public",
       email: "jeeiitb@iitb.ac.in",
       location: "Mumbai",
     },
@@ -55,7 +55,7 @@ export const userColumns = [
       universities: "Shivaji University",
       img: "https://3.bp.blogspot.com/-mwEiP8hmWKQ/Ud1s5DxFRwI/AAAAAAAABhQ/wnjnXce_DOM/s1600/Shivaji+university+Results+2013+Kolhapur+www.unishivaji.ac.in+Engineering+March+April+FYBCom.jpg",
       email: "sfc @ unishivaji . ac . in",
-      ownership: "passive",
+      ownership: "public",
      location : "Kolhapur",
     },
     {
@@ -64,7 +64,7 @@ export const userColumns = [
       universities: "SavitriBai Phule University",
       img: "http://www.unipune.ac.in/uop_files/uop_logo.jpg",
       email: "Phd.mphiladmis@pun.unipune.ac.in",
-      ownership: "pending",
+      ownership: "public",
       location: "Pune",
     },
     {
@@ -73,7 +73,7 @@ export const userColumns = [
       universities: "Tata Institute of Fundamental Research",
       img: "https://www.campusoption.com/images/colleges/logos/10_12_16_075213_TAT_LL.jpg",
       email: "info at tifrh dot res dot in",
-      ownership: "active",
+      ownership: "public",
       location: "Mumbai",
     },
     {
@@ -82,7 +82,7 @@ export const userColumns = [
       universities: "University of Mumbai",
       img: "https://i.ytimg.com/vi/d5i-QTJ20-s/maxresdefault.jpg",
       email: "mumbai.in",
-      ownership: "",
+      ownership: "public",
       location: "Mumbai",
     },
     {
@@ -91,7 +91,7 @@ export const userColumns = [
       universities: "Visvesvaraya National Institute of Technology",
       img: "https://media-fastly.hackerearth.com/media/companies/c8587b1-vnit%20LARGE%20LOGO.png",
       email: "Deanacd@vnit.ac.in",
-      ownership: "passive",
+      ownership: "public",
       location: "Nagpur",
     },
     {
@@ -100,7 +100,7 @@ export const userColumns = [
       universities: " North Maharashtra University",
       img: "https://pitfurth.sirv.com/WP_mbahunt.in/2016/06/North-Maharashtra-University-NMU.png",
       email: "sfc@nmuj.digitaluniversity.ac",
-      ownership: "active",
+      ownership: "public",
       location:"Jalgaon",
     },
    
@@ -110,7 +110,7 @@ export const userColumns = [
       universities: "Sant Gadge Baba Amravati University",
       img: "https://mahasarkar.co.in/wp-content/uploads/2018/05/amravati-uni-logo.jpg",
       email: "Sgbau.helpline@gmail.com",
-      ownership: "active",
+      ownership: "public",
       location: "Amravati",
     },
     {
@@ -119,7 +119,7 @@ export const userColumns = [
       universities: "Institute of Chemical Technology",
       img: "https://akseera.com/wp-content/uploads/2020/06/ict-mumbai-logo.png",
       email: "Director@iict.res.in",
-      ownership: "pending",
+      ownership: "public",
       location: "Mumbai",
     },
     {
@@ -128,7 +128,7 @@ export const userColumns = [
       universities: " Homi Bhabha National Institute",
       img: "http://justswipe.com/wp-content/uploads/2015/06/Homi_Bhabha_National_Institute_logo.svg.png",
       email: "Registrar@hbni.ac.in",
-      ownership: "active",
+      ownership: "public",
       location: "Mumbai",
     },
   ];

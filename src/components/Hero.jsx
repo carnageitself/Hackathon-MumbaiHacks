@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Tilt } from "react-tilt";
+import Modal from "../constants/Modal";
+import { ProtectedRoute } from "../App";
 
-const Hero = () => {
+const Hero = ({ setEmail, setName, setPercentile, handleService }) => {
   return (
     <div>
       <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
@@ -34,6 +36,10 @@ const Hero = () => {
                 </div>
               </Tilt>
             </Link>
+            
+            <Modal setEmail={setEmail} setPercentile={setPercentile} setName={setName}
+            handleService={handleService}/>
+           
             <Link to="/aboutus">
               <Tilt>
                 <div className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 shadow-lg relative group">

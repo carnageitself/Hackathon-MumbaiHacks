@@ -61,7 +61,7 @@ export const userRows = [
     id:3,
     ranking: "AAAAA+",
     colleges: "MPSTME Mumbai - Mukesh Patel School of Technology Management and Engineering",
-    img: "https://images.search.yahoo.com/search/images;_ylt=Awrjbj3qzXtk4mAakOBXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZANDQ0FEU1lDVF8xBHNlYwNwaXZz?p=Mukesh+Patel+School+of+Technology+Management+%26+Engineering&fr2=piv-web&type=E210US0G0&fr=mcafee",
+    img: "https://www.mbarendezvous.com/images/top-stories-img/bannerimage_1603372473.jpg",
     email: " enquiry.mpstme@nmims.edu",
     ownership: "private",
     location:"Vileparle" ,
