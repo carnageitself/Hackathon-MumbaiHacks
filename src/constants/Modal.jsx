@@ -26,7 +26,7 @@ export default function Modal({setEmail,setName,setPercentile,handleService}) {
     return (
         <React.Fragment>
         
-            <Button onClick={handleOpen}>CollegeCrux</Button>
+            <Button onClick={handleOpen}>Get Started</Button>
             <Dialog
                 size="xs"
                 open={open}
